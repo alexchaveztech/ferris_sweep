@@ -55,16 +55,16 @@
           			  &kp TAB &kp SPACE  				&kp RET &kp BSPC 
 		>;
 		};
-/*
-*      		num_layer {
-*		bindings = <
-*		&trans   &trans   &trans    &trans    &trans 				&trans &trans &trans &trans &trans
-*		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&trans &trans &trans &trans &trans 
-*		&trans   &trans   &trans    &trans    &trans				&trans &trans &trans &trans &trans
-*					    &trans    &trans  				&kp RET    &kp BSPC 
-*		>;
-*		};
-*/		
+
+      		num_layer {
+		bindings = <
+		&trans   &trans   &trans    &trans    &trans 				&trans &trans &trans &trans &trans
+		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&trans &trans &trans &trans &trans 
+		&trans   &trans   &trans    &trans    &trans				&trans &trans &trans &trans &trans
+					    &trans    &trans  				&kp RET    &kp BSPC 
+		>;
+		};
+		
 		nav_layer {
 		bindings = <
 		&trans   &trans   &trans    &trans    &trans    			&kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
@@ -83,14 +83,14 @@
 		>;
 		};	
 
-		fun_layer {
-		bindings = <
-		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&KP LNLCK &kp K_VOL_UP &kp K_MUTE &kp K_VOL_DN &trans
-		&kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK  					&trans    &kp RCTRL    &kp RSHFT  &kp LALT     &kp RGUI
-		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&trans    &trans       &trans     &trans       &trans 
-					 &kp K_CMENU &trans  				&trans    &trans 
-		>;
-		};	
-
+/*		fun_layer {
+*		bindings = <
+*		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&KP LNLCK &kp K_VOL_UP &kp K_MUTE &kp K_VOL_DN &trans
+*		&kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK  					&trans    &kp RCTRL    &kp RSHFT  &kp LALT     &kp RGUI
+*		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&trans    &trans       &trans     &trans       &trans 
+*					 &kp K_CMENU &trans  				&trans    &trans 
+*		>;
+*		};	
+*/
 	};
 };
