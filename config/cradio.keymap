@@ -55,16 +55,16 @@
           			  &kp TAB &kp SPACE  				&kp RET &kp BSPC 
 		>;
 		};
-
-      		num_layer {
-		bindings = <
-		&trans   &trans   &trans    &trans    &trans 				&trans &trans &trans &trans &trans
-		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&trans &trans &trans &trans &trans 
-		&trans   &trans   &trans    &trans    &trans				&trans &trans &trans &trans &trans
-					    &trans    &trans  				&kp RET    &kp BSPC 
-		>;
-		};
-		
+/*
+*      		num_layer {
+*		bindings = <
+*		&trans   &trans   &trans    &trans    &trans 				&trans &trans &trans &trans &trans
+*		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&trans &trans &trans &trans &trans 
+*		&trans   &trans   &trans    &trans    &trans				&trans &trans &trans &trans &trans
+*					    &trans    &trans  				&kp RET    &kp BSPC 
+*		>;
+*		};
+*/		
 		nav_layer {
 		bindings = <
 		&trans   &trans   &trans    &trans    &trans    			&kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
