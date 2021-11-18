@@ -58,10 +58,10 @@
 
       		num_layer {
 		bindings = <
-		&trans   &trans   &trans    &trans    &trans				&trans &trans &trans &trans &trans
+		&trans   &trans   &trans    &trans    &trans 				&trans &trans &trans &trans &trans
 		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&trans &trans &trans &trans &trans 
 		&trans   &trans   &trans    &trans    &trans				&trans &trans &trans &trans &trans
-					    &trans    &trans  				&kp RET   &kp BSPC 
+					    &trans    &trans  				&kp RET    &kp BSPC 
 		>;
 		};
 		
