@@ -55,16 +55,16 @@
           			  &kp TAB &kp SPACE  				&kp RET &kp BSPC 
 		>;
 		};
-/*
-*      		num_layer {
-*		bindings = <
-*		&trans   &trans   &trans    &trans    &trans				&kp LBKT  &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp RBKF 
-*		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&kp COLON &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp NUM_0 
-*		&trans   &trans   &trans    &trans    &trans				&kp HASH  &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp KP_DOT 
-*					    &trans    &trans  				&kp RET   &kp BSPC 
-*		>;
-*		};
-*/		
+
+      		num_layer {
+		bindings = <
+		&trans   &trans   &trans    &trans    &trans				&kp LBKT  &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp RBKF 
+		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&kp COLON &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp NUM_0 
+		&trans   &trans   &trans    &trans    &trans				&kp HASH  &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp KP_DOT 
+					    &trans    &trans  				&kp RET   &kp BSPC 
+		>;
+		};
+		
 		nav_layer {
 		bindings = <
 		&trans   &trans   &trans    &trans    &trans    			&kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
@@ -73,16 +73,16 @@
 					    &trans    &trans   				&kp RET    &kp BSPC  
 		>;
 		};	
-/*		
-*		sym_layer {
-*		bindings = <
-*		&kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC 			&trans    &trans    &trans   &trans   &trans
-*		&kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS  			&trans    &kp RCTRL &kp RSHFT &kp LALT &kp RGUI 
-*		&kp TILDE &kp EXCL &kp AT    &kp HASH  &kp PIPE   			&trans    &trans    &trans   &trans   &trans   
-*					     &kp TAB   &kp SPACE  			&trans    &trans 
-*		>;
-*		};	
-*
+		
+		sym_layer {
+		bindings = <
+		&kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC 			&trans    &trans    &trans   &trans   &trans
+		&kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS  			&trans    &kp RCTRL &kp RSHFT &kp LALT &kp RGUI 
+		&kp TILDE &kp EXCL &kp AT    &kp HASH  &kp PIPE   			&trans    &trans    &trans   &trans   &trans   
+					     &kp TAB   &kp SPACE  			&trans    &trans 
+		>;
+		};	
+/*
 *		fun_layer {
 *		bindings = <
 *		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&KP LNLCK &kp K_VOL_UP &kp K_MUTE &kp K_VOL_DN &trans
