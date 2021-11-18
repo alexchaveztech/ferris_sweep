@@ -52,19 +52,19 @@
 		&kp Q &kp W &kp F &kp P &kp B 						&kp J &kp L  &kp U    &kp Y   &kp SQT 
 		&kp A &kp R &kp S &kp T &kp G 			        	        &kp M &kp N  &kp E    &kp I   &kp O
 		&kp Z &kp X &kp C &kp D &kp V				        	&kp K &kp H  &kp CMMA &kp DOT &kp SLASH
-          			  &lt 1 TAB &lt 2 SPACE  				&kp RET &kp BSPC 
+          			  &kp TAB &kp SPACE  				&kp RET &kp BSPC 
 		>;
 		};
-
-       		num_layer {
-		bindings = <
-		&trans   &trans   &trans    &trans    &trans				&kp LBKT  &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp RBKF 
-		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&kp COLON &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp NUM_0 
-		&trans   &trans   &trans    &trans    &trans				&kp HASH  &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp KP_DOT 
-					    &trans    &trans  				&kp RET   &kp BSPC 
-		>;
-		};
-/*		
+/*
+*      		num_layer {
+*		bindings = <
+*		&trans   &trans   &trans    &trans    &trans				&kp LBKT  &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp RBKF 
+*		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&kp COLON &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp NUM_0 
+*		&trans   &trans   &trans    &trans    &trans				&kp HASH  &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp KP_DOT 
+*					    &trans    &trans  				&kp RET   &kp BSPC 
+*		>;
+*		};
+*		
 *		nav_layer {
 *		bindings = <
 *		&trans   &trans   &trans    &trans    &trans    			&kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
