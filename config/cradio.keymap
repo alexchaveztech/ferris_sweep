@@ -64,16 +64,16 @@
 *					    &trans    &trans  				&kp RET   &kp BSPC 
 *		>;
 *		};
-*		
-*		nav_layer {
-*		bindings = <
-*		&trans   &trans   &trans    &trans    &trans    			&kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
-*		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&kp CAPS   &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT
-*		&trans   &trans   &trans    &trans    &trans    			&kp INS    &kp HOME    &kp PG_DN  &kp PG_UP &kp END
-*					    &trans    &trans   				&kp RET    &kp BSPC  
-*		>;
-*		};	
-*		
+*/		
+		nav_layer {
+		bindings = <
+		&trans   &trans   &trans    &trans    &trans    			&kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
+		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&kp CAPS   &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT
+		&trans   &trans   &trans    &trans    &trans    			&kp INS    &kp HOME    &kp PG_DN  &kp PG_UP &kp END
+					    &trans    &trans   				&kp RET    &kp BSPC  
+		>;
+		};	
+/*		
 *		sym_layer {
 *		bindings = <
 *		&kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC 			&trans    &trans    &trans   &trans   &trans
