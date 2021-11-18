@@ -52,7 +52,7 @@
 		&kp Q &kp W &kp F &kp P &kp B 						&kp J &kp L  &kp U    &kp Y   &kp SQT 
 		&kp A &kp R &kp S &kp T &kp G 			        	        &kp M &kp N  &kp E    &kp I   &kp O
 		&kp Z &kp X &kp C &kp D &kp V				        	&kp K &kp H  &kp CMMA &kp DOT &kp SLASH
-          			  &lt 1 TAB &lt 2 SPACE  				&lt 3 RET &lt 4 BSPC 
+          			  &lt 1 TAB &lt 2 SPACE  				&lt 3 RET &kp BSPC 
 		>;
 		};
 
@@ -82,15 +82,15 @@
 					     &kp TAB   &kp SPACE  			&trans    &trans 
 		>;
 		};	
-
-		fun_layer {
-		bindings = <
-		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&KP LNLCK &kp K_VOL_UP &kp K_MUTE &kp K_VOL_DN &trans
-		&kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK  					&trans    &kp RCTRL    &kp RSHFT  &kp LALT     &kp RGUI
-		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&trans    &trans       &trans     &trans       &trans 
-					 &kp K_CMENU &trans  				&trans    &trans 
-		>;
-		};	
-
+/*
+*		fun_layer {
+*		bindings = <
+*		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&KP LNLCK &kp K_VOL_UP &kp K_MUTE &kp K_VOL_DN &trans
+*		&kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK  					&trans    &kp RCTRL    &kp RSHFT  &kp LALT     &kp RGUI
+*		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&trans    &trans       &trans     &trans       &trans 
+*					 &kp K_CMENU &trans  				&trans    &trans 
+*		>;
+*		};	
+*/
 	};
 };
