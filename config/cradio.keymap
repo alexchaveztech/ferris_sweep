@@ -54,6 +54,18 @@
             bindings = <&kp DEL>;
         };        
 
+         combo_leftwin {
+            timeout-ms = <50>;
+            key-positions = <26 27>;
+            bindings = <&kp LG(LEFT)>;
+        };        
+
+         combo_rightwin {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&kp LG(RIGHT)>;
+        };        
+
     };
 
         keymap {
@@ -70,36 +82,36 @@
 
 		num_layer {
 		bindings = <
-		&trans   &trans   &trans    &trans    &trans				&kp LBKT  &kp N7 &kp N8 &kp N9 &kp RBKT 
-		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&kp COLON &kp N4 &kp N5 &kp N6 &kp N0 
-		&trans   &trans   &trans    &trans    &trans				&kp HASH  &kp N1 &kp N2 &kp N3 &kp KP_DOT 
+		&none    &none    &none     &none     &none				&kp LBKT  &kp N7 &kp N8 &kp N9 &kp RBKT 
+		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp COLON &kp N4 &kp N5 &kp N6 &kp N0 
+		&none    &none    &none     &none     &none				&kp HASH  &kp N1 &kp N2 &kp N3 &kp KP_DOT 
 					    &trans    &trans  				&kp RET   &kp BSPC 
 		>;
 		};
 		
 		nav_layer {
 		bindings = <
-		&trans   &trans   &trans    &trans    &trans    			&kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
-		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans 				&kp CAPS   &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT
-		&trans   &trans   &trans    &trans    &trans    			&kp INS    &kp HOME    &kp PG_DN  &kp PG_UP &kp END
+		&none    &none    &none     &none     &none	    			&kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
+		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp CAPS   &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT
+		&none    &none    &none     &none     &none	    			&kp INS    &kp HOME    &kp PG_DN  &kp PG_UP &kp END
 					    &trans    &trans   				&kp RET    &kp BSPC  
 		>;
 		};	
 		
 		sym_layer {
 		bindings = <
-		&kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC 			&trans    &trans    &trans   &trans   &trans
-		&kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS  			&trans    &kp RCTRL &kp RSHFT &kp LALT &kp RGUI 
-		&kp TILDE &kp EXCL &kp AT    &kp HASH  &kp PIPE   			&trans    &trans    &trans   &trans   &trans   
-					     &kp TAB   &kp SPACE  			&trans    &trans 
+		&kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC 			&none     &none     &none     &none    &none
+		&kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS  			&none     &kp RCTRL &kp RSHFT &kp LALT &kp RGUI 
+		&kp TILDE &kp EXCL &kp AT    &kp HASH  &kp PIPE   			&none     &none     &none     &none    &none   
+					     &kp RPAR  &kp MINUS  			&trans    &trans 
 		>;
 		};	
 
 		fun_layer {
 		bindings = <
-		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&kp LNLCK &kp K_VOL_UP &kp K_MUTE &kp K_VOL_DN &trans
+		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&kp LNLCK &kp K_VOL_UP &kp K_MUTE &kp K_VOL_DN &reset
 		&kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK  					&trans    &kp RCTRL    &kp RSHFT  &kp LALT     &kp RGUI
-		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&trans    &trans       &trans     &trans       &trans 
+		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&none     &none        &none      &none        &bootloader 
 					 &kp K_CMENU &trans  				&trans    &trans 
 		>;
 		};	
