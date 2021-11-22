@@ -83,15 +83,15 @@
 		num_layer {
 		bindings = <
 		&none    &none    &none     &none     &none				&kp LBKT  &kp N7 &kp N8 &kp N9 &kp RBKT 
-		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp SEMI &kp N4 &kp N5 &kp N6 &kp N0 
-		&none    &none    &none     &none     &none				&kp GRAVE  &kp N1 &kp N2 &kp N3 &kp KP_DOT 
-					    &trans    &trans  				&kp RET   &kp BSPC 
+		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp SEMI  &kp N4 &kp N5 &kp N6 &kp EQUAL 
+		&none    &none    &none     &none     &none				&kp GRAVE &kp N1 &kp N2 &kp N3 &kp KP_DOT 
+					    &trans    &trans  				&kp KP_N0 &kp MINUS 
 		>;
 		};
 		
 		nav_layer {
 		bindings = <
-		&none    &none    &none     &none     &none	    			&kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
+		&none    &none    &none     &none     &none	    			&kp K_REDO &kp C_AC_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
 		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp CAPS   &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT
 		&none    &none    &none     &none     &none	    			&kp INS    &kp HOME    &kp PG_DN  &kp PG_UP &kp END
 					    &trans    &trans   				&kp RET    &kp BSPC  
@@ -109,8 +109,8 @@
 
 		fun_layer {
 		bindings = <
-		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&kp LNLCK &kp K_VOL_UP &kp K_MUTE &kp K_VOL_DN &reset
-		&kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK  					&trans    &kp RCTRL    &kp RSHFT  &kp LALT     &kp RGUI
+		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&kp LNLCK &kp C_VOL_UP &kp K_VOL_UP &kp K_VOL_UP2 &reset
+		&kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK  					&none     &kp RCTRL    &kp RSHFT  &kp LALT     &kp RGUI
 		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&none     &none        &none      &none        &bootloader 
 					 &kp K_CMENU &trans  				&trans    &trans 
 		>;
