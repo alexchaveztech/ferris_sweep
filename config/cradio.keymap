@@ -91,10 +91,10 @@
 		
 		nav_layer {
 		bindings = <
-		&none    &none    &none     &none     &none	    			&kp K_REDO &kp C_AC_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO 
-		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp CAPS   &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT
-		&none    &none    &none     &none     &none	    			&kp INS    &kp HOME    &kp PG_DN  &kp PG_UP &kp END
-					    &trans    &trans   				&kp RET    &kp BSPC  
+		&none    &none    &none     &none     &none	    			&kp C_AC_REDO &kp C_AC_PASTE &kp C_AC_COPY &kp C_AC_CUT &kp C_AC_UNDO 
+		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp CAPS      &kp LEFT       &kp DOWN      &kp UP       &kp RIGHT
+		&none    &none    &none     &none     &none	    			&kp INS       &kp HOME       &kp PG_DN     &kp PG_UP    &kp END
+					    &trans    &trans   				&kp RET       &kp BSPC  
 		>;
 		};	
 		
@@ -109,7 +109,7 @@
 
 		fun_layer {
 		bindings = <
-		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&kp LNLCK &kp C_VOL_UP &kp K_VOL_UP &kp K_VOL_UP2 &reset
+		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&kp LNLCK &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &reset
 		&kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK  					&none     &kp RCTRL    &kp RSHFT  &kp LALT     &kp RGUI
 		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&none     &none        &none      &none        &bootloader 
 					 &kp K_CMENU &trans  				&trans    &trans 
