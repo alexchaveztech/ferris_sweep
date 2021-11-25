@@ -35,18 +35,6 @@
             key-positions = <1 2>;
             bindings = <&kp ESC>;
         };
-        
-         combo_tab {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp TAB>;
-        };
-
-         combo_bspc {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&kp BSPC>;
-        };
 
          combo_del {
             timeout-ms = <50>;
@@ -73,46 +61,46 @@
                 
        		default_layer {
 		bindings = <
-		&kp Q       &kp W     &kp F       &kp P       &kp B 			&kp J &kp L        &kp U          &kp Y        &kp SQT 
+		&kp Q       &kp W     &kp F       &kp P       &kp B 			&kp J &kp L        &kp U          &kp Y        &kp SQT
 		&hm LGUI A &hm LALT R &hm LSHFT S &hm LCTRL T &kp G 	       	        &kp M &hm RCTRL N  &hm RSHFT E    &hm LALT I   &hm RGUI O
 		&kp Z       &kp X     &kp C       &kp D       &kp V	        	&kp K &kp H        &kp CMMA       &kp DOT      &kp SLASH
-          			  		  &lt 1 TAB   &lt 2 SPACE  		&lt 3 RET &lt 4 BSPC 
+          			  		  &lt 1 TAB   &lt 2 SPACE  		&lt 3 RET &lt 4 BSPC
 		>;
 		};
 
 		num_layer {
 		bindings = <
-		&none    &none    &none     &none     &none				&kp LBKT  &kp N7 &kp N8 &kp N9 &kp RBKT 
-		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp SEMI  &kp N4 &kp N5 &kp N6 &kp EQUAL 
-		&none    &none    &none     &none     &none				&kp GRAVE &kp N1 &kp N2 &kp N3 &kp KP_DOT 
-					    &trans    &trans  				&kp N0 &kp MINUS 
+		&none    &none    &none     &none     &none				&kp LBKT  &kp N7 &kp N8 &kp N9 &kp RBKT
+		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp SEMI  &kp N4 &kp N5 &kp N6 &kp EQUAL
+		&none    &none    &none     &none     &none				&kp GRAVE &kp N1 &kp N2 &kp N3 &kp DOT
+					    &trans    &trans  				&kp N0 &kp MINUS
 		>;
 		};
 		
 		nav_layer {
 		bindings = <
-		&none    &none    &none     &none     &none	    			&kp C_AC_REDO &kp C_AC_PASTE &kp C_AC_COPY &kp C_AC_CUT &kp C_AC_UNDO 
-		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp CAPS      &kp LEFT       &kp DOWN      &kp UP       &kp RIGHT
-		&none    &none    &none     &none     &none	    			&kp INS       &kp HOME       &kp PG_DN     &kp PG_UP    &kp END
-					    &trans    &trans   				&kp RET       &kp BSPC  
+		&none    &none    &none     &none     &none	    			&none    &none    &none     &none     &none
+		&kp LGUI &kp LALT &kp LSHFT &kp LCTRL &none 				&kp CAPS &kp LEFT &kp DOWN  &kp UP    &kp RIGHT
+		&none    &none    &none     &none     &none	    			&kp INS  &kp HOME &kp PG_DN &kp PG_UP &kp END
+					    &trans    &trans   				&kp RET  &kp BSPC
 		>;
 		};	
 		
 		sym_layer {
 		bindings = <
 		&kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC 			&none     &none     &none     &none    &none
-		&kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS  			&none     &kp RCTRL &kp RSHFT &kp LALT &kp RGUI 
-		&kp TILDE &kp EXCL &kp AT    &kp HASH  &kp PIPE   			&none     &none     &none     &none    &none   
-					     &kp RPAR  &kp MINUS  			&trans    &trans 
+		&kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS  			&none     &kp RCTRL &kp RSHFT &kp LALT &kp RGUI
+		&kp TILDE &kp EXCL &kp AT    &kp HASH  &kp PIPE   			&none     &none     &none     &none    &none
+					     &kp RPAR  &kp MINUS  			&trans    &trans
 		>;
 		};	
 
 		fun_layer {
 		bindings = <
-		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&kp LNLCK &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &reset
+		&kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN 					&kp LNLCK &kp C_VOL_DN &kp C_MUTE &kp C_VOL_UP &none
 		&kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK  					&none     &kp RCTRL    &kp RSHFT  &kp LALT     &kp RGUI
-		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&none     &none        &none      &none        &bootloader 
-					 &kp K_CMENU &trans  				&trans    &trans 
+		&kp F10 &kp F1 &kp F2 &kp F3 &kp PAUSE_BREAK   				&none     &none        &none      &none        &none
+					 &kp K_CMENU &trans  				&trans    &trans
 		>;
 		};	
 
